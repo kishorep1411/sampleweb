@@ -4,23 +4,15 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
-    background-size: 400% 400%;
-    animation: gradientBG 15s ease infinite;
-}
-
-@keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    background: url('https://www.transparenttextures.com/patterns/light-paper-fibers.png') repeat, #f9f9f9;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #007acc;
     color: white;
     padding: 15px 0;
     text-align: center;
-    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 4px solid #005b99;
 }
 
 header h1 {
@@ -36,22 +28,22 @@ header p {
 section {
     padding: 20px;
     margin: 20px auto;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.95);
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     max-width: 800px;
 }
 
 h2 {
-    color: #005b99;
+    color: #007acc;
     margin-bottom: 15px;
-    border-bottom: 2px solid #007acc;
+    border-bottom: 2px solid #005b99;
     padding-bottom: 5px;
 }
 
 h3 {
     margin-top: 0;
-    color: #007acc;
+    color: #005b99;
 }
 
 ul {
@@ -62,14 +54,14 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #007acc;
     color: white;
     margin-top: 20px;
-    border-top: 4px solid rgba(255, 255, 255, 0.5);
+    border-top: 4px solid #005b99;
 }
 
 a {
-    color: #ffeb3b;
+    color: white;
     text-decoration: none;
 }
 
